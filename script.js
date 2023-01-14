@@ -22,7 +22,7 @@ function check() {
     }
     else {
       cn.textContent = `your guess "${val}" is wrong.you have ${left} turns left!`
-      lh.textContent = `the surprise number was ${val}`
+      lh.textContent = `the surprise number was ${n}`
       btn.textContent="Reload"
       btn.style.display="inline"
     }
