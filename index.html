@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="./styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <h1>
+      welcome!
+    </h1>
+    <p>
+      we are happy that you came here to play our game.
+    </p>
+    <h2>
+      guessing the number!!!
+    </h2>
+    <p>
+      We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you
+      if your guess was too high or too low.
+    </p>
+    <label>Enter a guess:
+      <input type="number" required min="1" max="100" id="num-guessed" class="num-guessed">
+    </label>
+    <input type="submit" id="submit">
+    <div class="result">
+      <h1 id="final-result"></h1>
+      <p id="count-number"></p>
+      <p id="low-high"></p>
+      <button style="display: none;" id="reload-btn"></button>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>

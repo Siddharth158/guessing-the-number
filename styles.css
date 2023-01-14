@@ -1,0 +1,19 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  .container{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    background-color: #e8e84a;
+    padding: 2vw;
+    border: 0.3vw solid red;
+    border-radius: 2vw;
+  }
+  .container h1{
+    font-size: 3vw;
+  }
+  .container p{
+    font-size: 1.5vw;
+  }
